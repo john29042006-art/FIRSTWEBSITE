@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiri John - Portfolio</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Background Ambient Glows -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span>PJ</span>
+            </div>
+            <nav>
+                <a href="#hero"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="#about"><i class="fa-solid fa-user"></i> About</a>
+                <a href="#hobbies"><i class="fa-solid fa-gamepad"></i> Hobbies</a>
+                <a href="#plan"><i class="fa-solid fa-book-open"></i> Plan</a>
+                <a href="#photos"><i class="fa-solid fa-image"></i> Gallery</a>
+                <a href="#media"><i class="fa-solid fa-photo-film"></i> Media</a>
+                <a href="#contact" class="nav-btn"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-badge"><i class="fa-solid fa-graduation-cap"></i> Mulungushi University</div>
+            <h1 class="hero-title">Phiri John</h1>
+            <p class="hero-subtitle">BSc Computer Science &bull; <span class="highlight">ID: 202502668</span></p>
+            <p class="hero-bio">Building full-stack web experiences and exploring software engineering solutions with modern tech stacks.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Get In Touch <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#plan" class="btn btn-secondary">View Learning Plan</a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="content-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-id-card"></i> About Me</h2>
+                <p class="section-desc">My academic background and key focus areas</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Hello! I am <strong>Phiri John</strong> (Student ID: 202502668), a passionate Computer Science student at <strong>Mulungushi University</strong>.
+                    </p>
+                    <p>
+                        My core focus is software engineering, responsive front-end engineering, and algorithmic problem-solving. This semester, my goal is to build accessible, high-performance web applications using modern web standards.
+                    </p>
+                </div>
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Core Focus</h4>
+                        <p>Web Tech & Software Engineering</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-university"></i>
+                        <h4>Institution</h4>
+                        <p>Mulungushi University</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="content-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-heart"></i> My Hobbies</h2>
+                <p class="section-desc">Activities that keep me creative and inspired</p>
+            </div>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fa-solid fa-book-bookmark"></i></div>
+                    <h3>Reading Novels</h3>
+                    <p>Expanding perspective, vocabulary, and creative thinking through fiction and technical literature.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fa-solid fa-futbol"></i></div>
+                    <h3>Football</h3>
+                    <p>Building teamwork, focus, strategy, and physical stamina on the field.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                    <h3>Drawing</h3>
+                    <p>Expressing visual creativity, prototyping UI ideas, and sketching concepts.</p>
+                </div>
+            </div>
+            <!-- Keep hidden fallback UL for semantic requirements -->
+            <ul class="sr-only">
+                <li>Reading novels</li>
+                <li>Playing football</li>
+                <li>Drawing</li>
+            </ul>
+        </section>
+
+        <!-- Learning Plan Section -->
+        <section id="plan" class="content-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-list-check"></i> Learning Plan</h2>
+                <p class="section-desc">Structured methodology for web development mastery</p>
+            </div>
+
+            <ol class="plan-steps">
+                <li>
+                    <span class="step-num">01</span>
+                    <div>
+                        <h4>Daily Layout Practice</h4>
+                        <p>Practice writing clean semantic HTML5 & modern CSS Flex/Grid daily for 30 minutes.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-num">02</span>
+                    <div>
+                        <h4>Side Projects</h4>
+                        <p>Build real-world front-end components and test UI responsiveness across mobile and desktop devices.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-num">03</span>
+                    <div>
+                        <h4>Web Standards & Accessibility</h4>
+                        <p>Study WCAG guidelines and MDN documentation to write clean, SEO-friendly, accessible code.</p>
+                    </div>
+                </li>
+            </ol>
+
+            <p class="docs-link">
+                <i class="fa-solid fa-link"></i> Primary Documentation Reference: 
+                <a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">MDN Web Docs - Learning Web Development</a>
+            </p>
+
+            <h3>Weekly Schedule</h3>
+            <div class="table-container">
+                <table>
+                    <caption>Weekly Web Technologies Learning Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Topic</th>
+                            <th>Practice Task</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="day-badge">Monday</span></td>
+                            <td>HTML5 Semantic Structure</td>
+                            <td>Build structured pages using semantic sectioning tags.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Wednesday</span></td>
+                            <td>CSS Grid & Glassmorphism</td>
+                            <td>Style dark-mode cards, responsive galleries, and navigation controls.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="day-badge">Friday</span></td>
+                            <td>HTML5 Media Elements</td>
+                            <td>Integrate accessible video, audio elements, and interactive controls.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Photos Section -->
+        <section id="photos" class="content-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-images"></i> My Photos</h2>
+                <p class="section-desc">Campus life and study highlights</p>
+            </div>
+            <div class="gallery">
+                <figure class="gallery-card">
+                    <img src="images/photo1.jpg" alt="A picture of Phiri John studying">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </figure>
+                <figure class="gallery-card">
+                    <img src="images/photo2.jpg" alt="A picture of Phiri John on campus">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </figure>
+                <figure class="gallery-card">
+                    <img src="images/photo3.jpg" alt="A picture of Phiri John drawing and working on projects">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media" class="content-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-play"></i> My Media</h2>
+                <p class="section-desc">Self-introduction and audio recordings</p>
+            </div>
+
+            <div class="media-grid">
+                <div class="media-card">
+                    <h3><i class="fa-solid fa-video"></i> Video Introduction</h3>
+                    <div class="media-wrapper">
+                        <video controls>
+                            <source src="videos/intro.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="media-info"><i class="fa-solid fa-circle-info"></i> Self-introduction detailing my Computer Science degree, university goals, and Web Tech aspirations.</p>
+                </div>
+
+                <div class="media-card">
+                    <h3><i class="fa-solid fa-headphone-mic"></i> Voice Clip</h3>
+                    <div class="media-wrapper audio-box">
+                        <audio controls>
+                            <source src="videos/voice.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                    <p class="media-info"><i class="fa-solid fa-circle-info"></i> Brief audio clip discussing my technical interests and problem-solving mindset.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="content-section">
+            <div class="section-header">
+                <h2><i class="fa-solid fa-envelope"></i> Get In Touch</h2>
+                <p class="section-desc">Send me a direct message</p>
+            </div>
+
+            <form action="#" method="get" class="modern-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" value="Phiri John" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" value="john29042006@gmail.com" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="topic">Subject / Topic</label>
+                    <input type="text" id="topic" name="topic" placeholder="e.g. Project Inquiry or Web Development">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ICT251 Web Technologies | Designed & Built by <strong>Phiri John (202502668)</strong></p>
+    </footer>
+
+</body>
+</html>
